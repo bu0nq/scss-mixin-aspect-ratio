@@ -22,7 +22,7 @@ npm i @bu0nq/scss-mixin-aspect-ratio
 @use "@bu0nq/scss-mixin-aspect-ratio" as *;
 
 .demo {
-    @include aspect-ratio(100%, 100%) {
+    @include aspect-ratio(1, 1) {
         // Styles
     };
 }
@@ -36,7 +36,7 @@ npm i @bu0nq/scss-mixin-aspect-ratio
 @use "@bu0nq/scss-mixin-aspect-ratio" as mixin;
 
 .demo {
-    @include mixin.aspect-ratio(100%, 100%) {
+    @include mixin.aspect-ratio(1, 1) {
         // Styles
     };
 }
