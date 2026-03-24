@@ -1,16 +1,46 @@
-# Style.SCSS.Mixin.Box
+# SCSS Mixin Aspect Ratio
 
-Package for integrating `Style.SCSS.Mixin.Box` in a web environment.
+A package for integrating a mixin to create proportional blocks.
 
-![npm](https://img.shields.io/npm/v/@bu0nq/style.scss.mixin.box?style=for-the-badge)
-![npm](https://img.shields.io/npm/dm/@bu0nq/style.scss.mixin.box?style=for-the-badge)
-![npm](https://img.shields.io/npm/dt/@bu0nq/style.scss.mixin.box?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/@bu0nq/scss-mixin-aspect-ratio?style=for-the-badge)
+![npm](https://img.shields.io/npm/dt/@bu0nq/scss-mixin-aspect-ratio?style=for-the-badge)
+
+Documentation: [EN](README.md) | [RU](README.RU.md)
+
 ___
 
 ## Installation
 
-This package can be deployed automatically using NPM:
+You can install the package automatically using NPM:
 
 ```
-npm i @bu0nq/style.scss.mixin.box
+npm i @bu0nq/scss-mixin-aspect-ratio
+```
+
+## Usage
+
+To use the package, import it into your project:
+
+```scss
+@use "@bu0nq/scss-mixin-aspect-ratio" as *;
+
+.demo {
+    @include aspect-ratio(100%, 100%) {
+        // Styles
+    };
+}
+```
+
+## Changing the namespace
+
+You can change the namespace during mixin import and use the mixin with a different namespace:
+
+```scss
+@use "@bu0nq/scss-mixin-aspect-ratio" as mixin;
+
+.demo {
+    @include mixin.aspect-ratio(100%, 100%) {
+        // Styles
+    };
+}
 ```
