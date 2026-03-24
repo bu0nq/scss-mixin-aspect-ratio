@@ -25,7 +25,7 @@ To use the package, import it into your project:
 @use "@bu0nq/scss-mixin-aspect-ratio" as *;
 
 .demo {
-    @include aspect-ratio(100%, 100%) {
+    @include aspect-ratio(1, 1) {
         // Styles
     };
 }
@@ -39,7 +39,7 @@ You can change the namespace during mixin import and use the mixin with a differ
 @use "@bu0nq/scss-mixin-aspect-ratio" as mixin;
 
 .demo {
-    @include mixin.aspect-ratio(100%, 100%) {
+    @include mixin.aspect-ratio(1, 1) {
         // Styles
     };
 }
