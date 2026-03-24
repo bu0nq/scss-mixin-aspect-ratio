@@ -1,30 +1,38 @@
 {
-  "name": "@bu0nq/style.scss.mixin.box",
-  "version": "0.1.0",
-  "description": "Package for integrating Style.SCSS.Mixin.Box",
-  "main": "box.scss",
+  "name": "@bu0nq/scss-mixin-aspect-ratio",
+  "version": "1.0.0",
+  "description": "A package for integrating a mixin to create proportional blocks",
+  "keywords": [
+    "scss",
+    "style",
+    "frontend",
+    "mixin",
+    "mixins",
+    "aspect-ratio"
+  ],
+  "main": "index.scss",
+  "exports": {
+    ".": {
+      "sass": "./index.scss",
+      "default": "./index.scss"
+    }
+  },
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bu0nq/style.scss.mixin.box.git"
-  },
-  "keywords": [
-    "style",
-    "scss",
-    "mixin",
-    "box"
-  ],
   "author": {
     "name": "bu0nq",
     "email": "hello@bu0nq.ru"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bu0nq/style.scss.mixin.box/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bu0nq/scss-mixin-aspect-ratio.git"
   },
-  "homepage": "https://github.com/bu0nq/style.scss.mixin.box#readme",
+  "bugs": {
+    "url": "https://github.com/bu0nq/scss-mixin-aspect-ratio/issues"
+  },
+  "homepage": "https://github.com/bu0nq/scss-mixin-aspect-ratio#readme",
   "publishConfig": {
     "access": "public"
   }
